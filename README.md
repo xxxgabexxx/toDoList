@@ -1,2 +1,2 @@
-# toDoList
-Projeto de To Do List feito feito em JavaScript puro
+# To Do List 🧾
+Projeto de To Do List feito em JavaScript puro
