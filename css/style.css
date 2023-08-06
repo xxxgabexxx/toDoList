@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
     font-family: Helvetica;
-    color: #8062D6;
+    color: #FEBBCC;
     box-sizing: border-box;
 }
 
@@ -11,6 +11,15 @@ body {
     background-image: url(../img/background.jpg);
     background-position: center;
     background-size: cover;
+}
+
+h1 {
+    font-family: DejaVu Sans Mono, monospace;
+    color: #FEBBCC;
+    text-shadow: -1px -1px 0px #FDE5EC,
+        -1px 1px 0px #FDE5EC,
+        1px -1px 0px #FDE5EC,
+        1px 0px 0px #FDE5EC;
 }
 
 button {
@@ -31,7 +40,7 @@ button:hover {
     color: aliceblue;
 }
 
-button:hover > i {
+button:hover>i {
     color: aliceblue;
 }
 
@@ -41,7 +50,8 @@ button i {
     pointer-events: none;
 }
 
-input, select {
+input,
+select {
     padding: 0.25rem 0.5rem;
 }
 
@@ -65,7 +75,8 @@ input, select {
 }
 
 /* ToDo form */
-#todo-form, #edit-form {
+#todo-form,
+#edit-form {
     padding: 1rem;
     border-bottom: 1px solid #FFD2D7;
 }
@@ -88,44 +99,6 @@ input, select {
     margin-top: 1rem;
 }
 
-/* ToDo toolbar */
-#toolbar {
-    padding: 1rem;
-    border-bottom: 1px solid #FFD2D7;
-    display: flex;
-}
-
-#toolbar h4 {
-    margin-bottom: .5rem;
-}
-
-#search {
-    border-right: 1px solid #FFD2D7;
-    padding-right: 1rem;
-    margin-right: 1rem;
-    width: 65%;
-    display: flex;
-    flex-direction: column;
-}
-
-#search form {
-    display: flex;
-}
-
-#search input {
-    width: 100%;
-    margin-right: 0.3rem;
-}
-
-#filter {
-    width: 35%;
-    display: flex;
-    flex-direction: column;
-}
-
-#filter select {
-    flex: 1;
-}
 
 /* ToDo List */
 
@@ -136,6 +109,7 @@ input, select {
     padding: 1rem;
     border-bottom: 1px solid #FFD2D7;
     transition: .35;
+    margin-top: 1rem;
 }
 
 .todo h3 {
